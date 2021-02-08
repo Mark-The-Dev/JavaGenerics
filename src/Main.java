@@ -1,3 +1,5 @@
+import SeriesPackage.Series;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -19,7 +21,11 @@ public class Main {
 
 
 
-        System.out.println(buffaloBills.numPlayers());
+       // System.out.println(buffaloBills.numPlayers());
+
+        System.out.println(Series.nSum(10));
+        System.out.println(Series.factorial(1));
+        System.out.println(Series.fibonacci(10));
     }
 
 }
